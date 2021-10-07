@@ -1,7 +1,13 @@
 #include <iostream>
+#include <string>
+
+#include "GinaBFInterpreter.hpp"
 
 int main ()
 {
-    std::cout << "Hello World" << std::endl;
+    Interpreter interpreter;
+
+    interpreter.executeExpression("+++++.>+++.");
+
     return 0;
 }
