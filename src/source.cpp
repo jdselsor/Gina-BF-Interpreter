@@ -7,7 +7,7 @@ int main ()
 {
     Interpreter interpreter;
 
-    interpreter.executeExpression("+++++.>+++.");
+    interpreter.executeExpression("++>+++++[<+>-]++++++++[<++++++>-]<.++>+++++[<+>-]++++++++[<++++++>-]<.");
 
     return 0;
 }
