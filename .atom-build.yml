@@ -1,0 +1,6 @@
+cmd: "g++ -c src/*.cpp -std=c++14 -m64 -g -Wall -I include && g++ *.o -o ./build/debug/main && ./build/debug/main"
+sh: true
+targets:
+    Release:
+        cmd: "g++ -c src/*.cpp -std=c++14 -m64 -O3 -g -Wall -I include && g++ *.o -o build/release/main -s && ./build/release/main"
+        sh: true
