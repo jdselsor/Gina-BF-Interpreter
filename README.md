@@ -4,7 +4,8 @@ The Gina Brainfuck Interpreter is a [Brainfuck](https://en.wikipedia.org/wiki/Br
 
 ## Brainfuck Basics
 Brainfuck is a Turing complete esoteric language. Imagine a large ribbon of paper divided into cells. There is a pen at the very start of the ribbon. This pen can traverse the ribbon as well as write values to the cell.
-### The Seven Basic Commands {#seven-commands}
+
+### The Seven Basic Commands
 | Command | Description |
 | ----------- | ----------- |
 | `>` | Increments the pointer by 1 cell.|
@@ -38,7 +39,7 @@ The value of the cell must be encoded.
 ```
 
 ## Basic Mode
-**Basic Mode** is traditional Brainfuck where the only valid commands are the [**Seven Basic Commands**](#seven-commands). This will be the starting point for the interpreter. **Basic Mode** is a subset of **Advanced Mode** so and code written with basic mode commands only will run in the **Advanced Mode** with the exception of an non-command text being comments. If you run the interpreter in **Advanced Mode** to run **Basic Mode** code you will have to use the comment command.
+**Basic Mode** is traditional Brainfuck where the only valid commands are the [**Seven Basic Commands**](#The Seven Basic Commands). This will be the starting point for the interpreter. **Basic Mode** is a subset of **Advanced Mode** so and code written with basic mode commands only will run in the **Advanced Mode** with the exception of an non-command text being comments. If you run the interpreter in **Advanced Mode** to run **Basic Mode** code you will have to use the comment command.
 
 ## Advanced Mode
 Advanced mode is a set of additional commands to add functionality and ease of use to the language.
@@ -75,7 +76,7 @@ This should allow for an API so I can link it in with a website and have the use
 
 ## Task List
 - [ ] Implement "Basic Mode"
-    - [ ] Seven Basic commands implemented
+    - [x] Seven Basic commands implemented
 - [ ] Implement "Advanced Mode"
     - [ ] Tokenization and lexing
     - [ ] Cell value referencing `V`
