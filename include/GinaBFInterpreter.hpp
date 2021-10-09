@@ -36,5 +36,5 @@ class Interpreter
         void outputCell ();
         void readIntoCell ();
         void beginLoop (uint32_t expressionIndex);
-        void endLoop (std::string::iterator &it);
+        void endLoop (std::string::iterator it);
 };
